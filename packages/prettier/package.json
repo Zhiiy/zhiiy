@@ -1,14 +1,18 @@
 {
-  "name": "@zhiiy/prettier",
+  "name": "@zhiiys/prettier",
   "version": "1.0.0",
   "description": "zhiy's prettier config",
-  "author": "",
   "license": "MIT",
+  "author": "zhiy <531512142@qq.com>",
   "keywords": [
     "prettier"
   ],
   "main": "lib/index.js",
   "files": [
     "lib"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
 }

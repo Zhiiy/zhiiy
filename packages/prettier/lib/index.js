@@ -2,7 +2,7 @@
  * Prettier 配置项
  * https://prettier.io/docs/en/options.html
  */
-modules.exports = {
+module.exports = {
   // 句末不添加分号
   semi: false,
   // tab 缩进使用 2 个空格
@@ -32,5 +32,5 @@ modules.exports = {
   // 自动格式化嵌入的代码内容
   embeddedLanguageFormatting: 'auto',
   // 不强制 html vue jsx 中的属性（具有多个时）单独占一行
-  singleAttributePerLine: false
+  singleAttributePerLine: false,
 }

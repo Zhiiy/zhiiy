@@ -1,17 +1,23 @@
 {
-  "name": "zhiiy-monorepo",
+  "name": "zhiiys-monorepo",
   "version": "1.0.0",
   "private": true,
   "description": "",
+  "license": "MIT",
+  "author": "zhiy <531512142@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zhiiy/zhiiys.git"
+  },
   "scripts": {
+    "changeset": "changeset",
     "format": "prettier --write ."
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
+    "@zhiiys/prettier": "workspace:*",
     "prettier": "^3.2.5"
   },
-  "prettier": "@zhiiy/prettier"
+  "prettier": "@zhiiys/prettier"
 }
