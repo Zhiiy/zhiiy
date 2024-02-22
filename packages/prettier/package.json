@@ -1,0 +1,14 @@
+{
+  "name": "@zhiiy/prettier",
+  "version": "1.0.0",
+  "description": "zhiy's prettier config",
+  "author": "",
+  "license": "MIT",
+  "keywords": [
+    "prettier"
+  ],
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ]
+}
