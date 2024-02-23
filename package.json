@@ -11,6 +11,8 @@
   },
   "scripts": {
     "changeset": "changeset",
+    "version": "changeset version && pnpm install",
+    "publish": "changeset publish",
     "format": "prettier --write ."
   },
   "keywords": [],
